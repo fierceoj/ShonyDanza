@@ -1,5 +1,5 @@
 # ShonyDanza
-A customizable, easy-to-navigate tool to aid in researching, pen testing, and defending with the power of Shodan. 
+A customizable, easy-to-navigate tool for researching, pen testing, and defending with the power of Shodan. 
 
 ![Demo GIF](demo/shonydanza_demo.gif)
 
