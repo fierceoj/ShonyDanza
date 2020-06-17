@@ -15,7 +15,7 @@ With ShonyDanza, you can:
 - Get total counts for searches and exploits
 - Automatically save exploit code, IP lists, host profiles, domain profiles, and scan results to directories within ShonyDanza
 
-![alt text](../img/run_shonydanza.py)
+![alt text](./img/run_shonydanza.py)
 
 ## Installation
 `git clone https://github.com/fierceoj/ShonyDanza.git`</br>
