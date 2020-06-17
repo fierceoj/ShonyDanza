@@ -1,6 +1,6 @@
 # ShonyDanza
 
-A customizable, easy-to-navigate tool to aid in researching, attacking, and defending with the power of Shodan. 
+A customizable, easy-to-navigate tool to aid in researching, pen testing, and defending with the power of Shodan. 
 
 With ShonyDanza, you can:
 - Obtain IPs based on search criteria
@@ -17,9 +17,11 @@ With ShonyDanza, you can:
 
 ## Demo
 
+
 ## Installation
 
-## Requirements
+
+# Requirements
 - python3
 - shodan library
 
