@@ -20,17 +20,18 @@ With ShonyDanza, you can:
 
 ## Installation
 `git clone https://github.com/fierceoj/ShonyDanza.git`</br>
-`cd ShonyDanza`</br>
+
 > Requirements
 - python3
 - shodan library
 
+`cd ShonyDanza`</br>
 `pip3 install -r requirements.txt`
 
 ## Usage
-> Edit config.py to include your API key and desired configurations
-`cd configs`
-`sudo nano config.py`
+> Edit config.py to include your API key and desired configurations</br>
+`cd configs`</br>
+`sudo nano config.py`</br>
 
 ```
 #config file for shonydanza searches
@@ -72,7 +73,7 @@ STOCK_SEARCHES = {
 #NET_RANGE = '0.0.0.0/0'
 ```
 
-> Run
+> Run </br>
 `python3 shonydanza.py`
 
 ## Legal Disclaimer
