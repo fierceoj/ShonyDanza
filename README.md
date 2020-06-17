@@ -1,7 +1,7 @@
 # ShonyDanza
 A customizable, easy-to-navigate tool to aid in researching, pen testing, and defending with the power of Shodan. 
 
-![alt text](img/run_shonydanza.png)
+![Demo GIF](demo/shonydanza_demo.gif)
 
 With ShonyDanza, you can:
 - Obtain IPs based on search criteria
