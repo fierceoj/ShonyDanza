@@ -74,6 +74,7 @@ STOCK_SEARCHES = {
 ```
 
 > Run </br>
+`cd ShonyDanza`</br>
 `python3 shonydanza.py`
 
 ## Legal Disclaimer
