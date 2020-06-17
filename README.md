@@ -19,9 +19,9 @@ With ShonyDanza, you can:
 
 
 ## Installation
-
-
-### Requirements
+`git clone https://github.com/fierceoj/ShonyDanza.git`</br>
+`cd ShonyDanza`</br>
+> Requirements
 - python3
 - shodan library
 
