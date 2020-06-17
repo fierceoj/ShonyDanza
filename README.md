@@ -7,6 +7,7 @@ With ShonyDanza, you can:
 - Automatically exclude honeypots from the results
 - Pre-configure all IP searches to filter on your specified net range(s)
 - Pre-configure search limits
+- Craft searches with easy building blocks
 - Use stock searches and pre-configure your own stock searches
 - Check if IPs are known malware C2s
 - Get host and domain profiles
