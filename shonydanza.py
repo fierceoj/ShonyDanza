@@ -79,7 +79,7 @@ def print_ips(results):
 			with open(file_name, 'w') as f:
 				f.write('\n'.join(ips))
 
-			print('\n\033[1;92mResults saved\033[0;39m to file: ' + file_name)
+			print('\n\033[1;92mResults saved to file:\033[0;39m ' + file_name)
 
 		else:
 			print('\033[31mInvalid Choice\033[39m')
