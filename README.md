@@ -74,7 +74,9 @@ STOCK_SEARCHES = {
 
 > Run </br>
 `cd ../`</br>
-`python3 shonydanza.py`
+`python3 shonydanza.py`</br>
+
+See this [how-to article](https://null-byte.wonderhowto.com/forum/to-use-shonydanza-find-target-and-exploit-0318883/) for additional usage examples. 
 
 ## Legal Disclaimer
 This project is made for educational and ethical testing purposes only. Usage of ShonyDanza for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
