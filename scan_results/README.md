@@ -1,1 +1,1 @@
-This is an empty directory where on-demand scan results will be saved. 
+This is an empty directory where on-demand scan results will be saved for the user. 
