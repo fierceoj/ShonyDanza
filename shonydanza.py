@@ -256,7 +256,7 @@ def check_malware_ip(ip):
 #get the honeyscore of an IP
 #honeyscore is probability that IP is a honeypot
 def honeyscore(ip):
-	url = 'https://api.shodan.io/labs/honeyscore/' + ip + '?key=' + config.API_KEY
+	url = 'https://api.shodan.io/labs/honeyscore/' + ip + '?key=' + API_KEY
 	response = requests.get(url)
 	if "error" in response.text:
 		print('Error occurred for that IP.')
@@ -363,7 +363,7 @@ def get_host_profile(ip):
 #saves results file to domain_profiles directory
 def get_domain_profile(domain):
 	
-	url = 'https://api.shodan.io/dns/domain/' + domain + '?key=' + config.API_KEY
+	url = 'https://api.shodan.io/dns/domain/' + domain + '?key=' + API_KEY
 	response = requests.get(url)
 	
 	if "error" in response.json():
@@ -1081,9 +1081,10 @@ Enter below:
 
 	
 if __name__ == "__main__":
-	#check to make sure the API key is valid
+	#get valid API Key
 	try:
-			api = shodan.Shodan(getpass.getpass('Enter API Key: '))
+			API_KEY = getpass.getpass('Enter API Key: ')
+                        api = shodan.Shodan(API_KEY)
 	except shodan.APIError as e:
 			print(f'Error: {e}')
 
