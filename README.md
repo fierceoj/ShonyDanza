@@ -36,12 +36,6 @@ With ShonyDanza, you can:
 #config file for shonydanza searches
 
 #REQUIRED
-#shodan account API key
-
-API_KEY = ''
-
-
-#REQUIRED
 #maximum number of results that will be returned per search
 #default is 100
 
