@@ -259,7 +259,7 @@ def honeyscore(ip):
 	url = 'https://api.shodan.io/labs/honeyscore/' + ip + '?key=' + API_KEY
 	response = requests.get(url)
 	if "error" in response.text:
-		print('Error occurred for that IP.')
+		score = 1.1
 	else:
 		score = float(response.text)
 		return score
