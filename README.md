@@ -28,7 +28,7 @@ With ShonyDanza, you can:
 `pip3 install -r requirements.txt`
 
 ## Usage
-> Edit config.py to include your API key and desired configurations</br>
+> Edit config.py to include your desired configurations</br>
 `cd configs`</br>
 `sudo nano config.py`</br>
 
