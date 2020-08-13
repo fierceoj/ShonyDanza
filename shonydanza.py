@@ -1083,7 +1083,7 @@ Enter below:
 if __name__ == "__main__":
 	#check to make sure the API key is valid
 	try:
-			api = shodan.Shodan(getpass.getpass('Enter API Key: ')
+			api = shodan.Shodan(getpass.getpass('Enter API Key: '))
 	except shodan.APIError as e:
 			print(f'Error: {e}')
 
