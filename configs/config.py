@@ -17,7 +17,7 @@ HONEYSCORE_LIMIT = 1.0
 
 #REQUIRED - at least one key: value pair
 #stock searches that can be selected from a menu
-#add search to the dictionary below to add it to your shonydanza menu
+#add search to the dictionary below to add it to your shonydanza stock searches menu
 
 STOCK_SEARCHES = {
 'ANONYMOUS_FTP':'ftp anonymous ok',
