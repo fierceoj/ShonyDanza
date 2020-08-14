@@ -9,9 +9,10 @@ SEARCH_LIMIT = 100
 
 #REQUIRED
 #IPs exceeding the honeyscore limit will not show up in IP results
-#adjust to desired probability to adjust results, or change to 1.0 to include all results
+#scale is 0.0 to 1.0
+#adjust to desired probability to restrict results by threshold, or keep at 1.0 to include all results
 
-HONEYSCORE_LIMIT = 0.5
+HONEYSCORE_LIMIT = 1.0
 
 
 #REQUIRED - at least one key: value pair
