@@ -4,6 +4,7 @@ import shodan
 from configs import config
 import getpass
 import requests
+import time
 import json
 import sys
 import ast 
@@ -60,6 +61,7 @@ def print_ips(results):
 					print(ip)
 					ips.append(ip)
 					not_honeypots += 1
+				time.sleep(1)
 			if not_honeypots == 0:
 				print('Only honeypots were found.')
 
@@ -923,6 +925,8 @@ def main():
 			ip = input('\033[39m> Enter IP: ')
 			print('\n')
 			score = honeyscore(ip)
+			if score == 1.1:
+				score = 'Error occurred for that IP.'
 			print('Honeypot probability score: ' + str(score))
 		elif option == 5:
 			ip = input('\033[39m> Enter host IP: ')
