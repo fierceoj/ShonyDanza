@@ -264,7 +264,7 @@ def honeyscore(ip):
 		score = 1.1
 	else:
 		score = float(response.text)
-		return score
+	return score
 
 #get information for a host IP 
 #saves results file to host_profiles directory
