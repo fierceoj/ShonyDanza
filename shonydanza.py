@@ -857,6 +857,7 @@ def main():
 	#print the shonydanza banner
 	banner()
 
+	#get main menu and sub-menu selections
 	while True:
 
 		menu()
