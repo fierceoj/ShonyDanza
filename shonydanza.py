@@ -39,7 +39,7 @@ def menu():
 [7] Scan on-demand 
 [8] Find exploits
 [9] Check API plan info
-[10]Exit
+[10] Exit
 """)
 
 
@@ -184,7 +184,7 @@ def build_ip_search(port, product, version, os, keyword):
 def ip_by_stock_search():
 	while True:
 		for k,v in config.STOCK_SEARCHES.items():
-			print('\033[93m\t\t\t\t\t\t[' + str(list(config.STOCK_SEARCHES).index(k) + 1) + '] ' + k + ': ' + v)
+			print('\033[93m\t\t\t\t\t\t[' + str(list(config.STOCK_SEARCHES).index(k) + 1) + '] ' + k + ': ' + '\033[0;39m' + v)
 
 		print('\t\t\t\t\t\t\033[93m[' + str(len(config.STOCK_SEARCHES) + 1) + '] Return to Get IPs menu') 
 
