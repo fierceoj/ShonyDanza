@@ -83,6 +83,7 @@ STOCK_SEARCHES = {
 `cd ../`</br>
 `python3 shonydanza.py`</br>
 
+See this [how-to article](https://null-byte.wonderhowto.com/forum/to-use-shonydanza-find-target-and-exploit-0318883/) for additional usage instruction. </br> NOTE: The API key config info for this article is no longer accurate, since it was removed as a hardcodable property in the config file some time back, and the script instead uses getpass() to retrieve it. Otherwise, the tutorial should still be useful. Working on updating the blog, but at this time the blogging platform will not allow me to update it. 
 
 ## Legal Disclaimer
 This project is made for educational and ethical testing purposes only. Usage of ShonyDanza for attacking targets without prior mutual consent is illegal. It is the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
