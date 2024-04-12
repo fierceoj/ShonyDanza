@@ -3,7 +3,7 @@ chardet==3.0.4
 click==7.1.2
 click-plugins==1.1.1
 colorama==0.4.3
-idna==3.3
+idna==3.7
 requests==2.31.0
 shodan==1.23.0
 urllib3==1.26.18
